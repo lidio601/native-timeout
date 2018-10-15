@@ -1,0 +1,37 @@
+{
+  "name": "native-timeout",
+  "version": "1.0.0",
+  "description": "Native implementation of the setTimeout function",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp build",
+    "test": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidio601/native-timeout.git"
+  },
+  "keywords": [
+    "setTimeout",
+    "node.js",
+    "native"
+  ],
+  "author": "Fabio Cigliano <fcigliano@onlinerepublic.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/lidio601/native-timeout/issues"
+  },
+  "homepage": "https://github.com/lidio601/native-timeout#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "gypfile": true,
+  "standard": {
+    "ignore": [
+      "build/**"
+    ]
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11"
+  }
+}
